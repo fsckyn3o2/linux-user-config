@@ -1,0 +1,25 @@
+# Examples of icons
+# ...'3270 Nerd Font' used for this file...
+
+Network :
+󰈀 󰌗 󱚶 
+
+Power :
+󰉁
+
+Picture :
+󰣌   
+
+Temp :
+󰔏  
+
+Devices :
+󱛟 󰒜 󰐪    󰐪 
+
+Progressbar :
+󰃝 󰃞 󰃟 󰃠 
+󰃚 󰃛 󰃜
+󱩖 󱩕 󱩔 󱩓 󱩒 󱩑 󱩐 󱩏 󱩎 
+
+Softwares :
+ 
