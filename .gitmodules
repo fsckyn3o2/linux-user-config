@@ -1,0 +1,20 @@
+[submodule "applications/arch_aur_packages/7-zip-full"]
+	path = applications/arch_aur_packages/7-zip-full
+	url = https://aur.archlinux.org/7-zip-full.git
+	ignore = untracked
+[submodule "applications/arch_aur_packages/rofi-power-menu"]
+	path = applications/arch_aur_packages/rofi-power-menu
+	url = https://aur.archlinux.org/rofi-power-menu.git
+	ignore = untracked
+[submodule "applications/arch_aur_packages/sunwait"]
+	path = applications/arch_aur_packages/sunwait
+	url = https://aur.archlinux.org/sunwait.git
+	ignore = untracked
+[submodule "applications/arch_aur_packages/clearlooks-phenix-gtk-theme"]
+	path = applications/arch_aur_packages/clearlooks-phenix-gtk-theme
+	url = https://aur.archlinux.org/clearlooks-phenix-gtk-theme.git
+	ignore = untracked
+[submodule "applications/arch_aur_packages/iwgtk"]
+	path = applications/arch_aur_packages/iwgtk
+	url = https://aur.archlinux.org/iwgtk.git
+	ignore = untracked
