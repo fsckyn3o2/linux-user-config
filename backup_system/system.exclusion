@@ -1,0 +1,14 @@
+/dev/*
+/proc/*
+/sys/*
+/tmp/*
+/run/*
+/mnt/*
+/home/*
+/media/*
+/lost+found
+/srv/
+/var/lib/dhcpcd/*
+/var/cache/pacman/pkg/*
+/var/log/*
+/root/.cache
