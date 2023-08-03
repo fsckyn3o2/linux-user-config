@@ -1,4 +1,4 @@
-# Extra system config of Linux (arch) based on sway
+# Extra system config of Linux (arch) based on sway and wayland
 
 ## Summary
 
@@ -15,3 +15,26 @@
   - scripts : useful script for user
   - sway : configuration of sway
   - waybar : simple/minimal configuration of waybar
+
+## Details
+
+### [Config](./config/README.md)
+- `config` contains modules which are store in `$HOME/.config`
+
+### Environment
+
+- [wiki.archlinux.org - Environment variable - Per wayland session](https://wiki.archlinux.org/title/Environment_variables#Per_Wayland_session)
+<br/><br/>
+- `environemnt` is `$HOME/.config/environment.d`, the directory called by systemd to create user environment variables 
+- This script [`config/profile.d/environmentd.sh`](./config/profile.d/environmentd.sh) load conf files as explain in documentation
+
+### [ZRam disk](./zramdisk/README.md)
+
+### [applications](./applications)
+List of applications/aur-packages as examples.
+
+### [Theme archive](./themes_archive/README.md)
+List of themes used in different modules.
+
+### [Icons and Symbols](./icons_symbols)
+Custom icons or symbols used in waybar or sway environment.
