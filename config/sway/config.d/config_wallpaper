@@ -1,0 +1,4 @@
+exec_always {
+    /$HOME/.config/sway/wallpaper/sunpaper/sunpaper.sh -c
+    /$HOME/.config/sway/wallpaper/sunpaper/sunpaper.sh -d
+}

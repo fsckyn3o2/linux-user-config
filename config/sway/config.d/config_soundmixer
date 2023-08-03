@@ -1,0 +1,5 @@
+for_window [app_id="soundmixer"] floating enable
+for_window [app_id="soundmixer"] opacity 0.8
+for_window [app_id="soundmixer"] border none
+for_window [app_id="soundmixer"] resize set 60ppt 50ppt
+# example : exec alacritty --class soundmixer -e alsamixer

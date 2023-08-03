@@ -1,0 +1,3 @@
+exec_always {
+  exec $HOME/.config/sway/run_notifsrv_dunst.sh
+}

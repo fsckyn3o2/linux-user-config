@@ -1,0 +1,4 @@
+for_window [app_id="wclock_calendar"] floating enable
+for_window [app_id="wclock_calendar"] opacity 0.8
+for_window [app_id="wclock_calendar"] border none
+for_window [app_id="wclock_calendar"] resize set 50ppt 40ppt

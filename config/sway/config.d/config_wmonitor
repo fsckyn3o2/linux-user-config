@@ -1,0 +1,3 @@
+for_window [class="Conky"] floating enable
+for_window [class="Conky"] opacity 0.8
+for_window [class="Conky"] resize set 20ppt 20ppt

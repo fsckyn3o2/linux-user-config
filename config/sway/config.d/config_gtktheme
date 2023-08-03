@@ -1,0 +1,11 @@
+set $gnome-schema org.gnome.desktop.interface
+
+exec_always {
+	gsettings set org.gnome.desktop.wm.preferences theme 'victory-gtk-theme-2021-12'
+	gsettings set $gnome-schema gtk-theme 'victory-gtk-theme-2021-12'
+	gsettings set $gnome-schema icon-theme 'victory-icon-theme-master'
+	gsettings set $gnome-schema cursor-theme 'Future-cursors'
+	gsettings set $gnome-schema font-name 'Agave Nerd Font Mono 12'
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+	#gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+}

@@ -1,0 +1,4 @@
+for_window [app_id="org.twosheds.iwgtk"] floating enable
+for_window [app_id="org.twosheds.iwgtk"] opacity 1
+for_window [app_id="org.twosheds.iwgtk"] resize set 50ppt 50ppt
+# example : exec alacritty --class networkstatus -e iwgtk

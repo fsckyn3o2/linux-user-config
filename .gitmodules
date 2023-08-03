@@ -18,3 +18,7 @@
 	path = applications/arch_aur_packages/iwgtk
 	url = https://aur.archlinux.org/iwgtk.git
 	ignore = untracked
+[submodule "config/sway/wallpaper/sunpaper"]
+	path = applications/arch_aur_packages/iwgtk
+	url = https://github.com/hexive/sunpaper.git
+	ignore = untracked

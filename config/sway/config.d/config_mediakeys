@@ -1,0 +1,24 @@
+# from /usr/include/xkbcommon/xkbcommon-keysyms.h
+#define XKB_KEY_XF86MonBrightnessUp    0x1008FF02  /* Monitor/panel brightness */
+#define XKB_KEY_XF86MonBrightnessDown  0x1008FF03  /* Monitor/panel brightness */
+bindsym XF86MonBrightnessUp exec sudo light -A 5
+bindsym XF86MonBrightnessDown exec sudo light -U 5
+
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+exec_always {
+  mkdir -p $HOME/Pictures/captures
+}
+
+#bindsym Print exec /usr/share/sway/scripts/grimshot --notify copy screen
+#bindsym Ctrl+Shift+F10 exec /usr/share/sway/scripts/grimshot --notify copy area
+#bindsym Ctrl+Alt+F10 exec /usr/share/sway/scripts/grimshot --notify copy active
+#bindsym Ctrl+Shift+Alt+F10 exec /usr/share/sway/scripts/grimshot --notify copy window
+#bindsym Alt+F10 exec /usr/share/sway/scripts/grimshot --notify save active $(${xdg-user-dir}/Pictures/captures)/$(TZ=utc date +'screenshot_%Y-%m-%d-%H%M%S.%3N.png')
+
+bindsym Print exec /usr/share/sway/scripts/grimshot --notify save screen $(xdg-user-dir)/Pictures/captures/$(TZ=utc date +'screenshot_%Y-%m-%d-%H%M%S.%3N.png')
+bindsym Shift+Print exec /usr/share/sway/scripts/grimshot --notify save area $(xdg-user-dir)/Pictures/captures/$(TZ=utc date +'screenshot_%Y-%m-%d-%H%M%S.%3N.png')
+bindsym Ctrl+Shift+Print exec /usr/share/sway/scripts/grimshot --notify save window $(xdg-user-dir)/Pictures/captures/$(TZ=utc date +'screenshot_%Y-%m-%d-%H%M%S.%3N.png')
+

@@ -1,0 +1,10 @@
+# this key binding pops up a wofi selector on the clipboard history so that one item
+# can be chosen to be the new clipboard. $mod+y because control+y in emacs is 
+# 'yank':
+bindsym $mod+y exec alacritty --class applauncher -e $HOME/.config/sway/run_fzfclip.sh
+bindsym $mod+shift+y exec alacritty --class applauncher -e $HOME/.config/sway/run_clearclip.sh
+
+# watched the clipboard and sends any new item to 
+exec_always {
+  exec $HOME/.config/sway/run_clip.sh
+}

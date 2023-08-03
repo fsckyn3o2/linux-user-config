@@ -1,0 +1,10 @@
+for_window [app_id="applauncher"] floating enable
+for_window [app_id="applauncher"] opacity 0.8
+for_window [app_id="applauncher"] border none
+for_window [app_id="applauncher"] resize set 50ppt 40ppt
+
+# Fzf
+bindsym $mod+d exec alacritty --class applauncher -e $HOME/.config/sway/run_applauncher_fzf.sh
+
+# Rofi
+#bindsym $mod+d exec alacritty --class applauncher -e $HOME/.config/sway/run_applauncher_rofi.sh
