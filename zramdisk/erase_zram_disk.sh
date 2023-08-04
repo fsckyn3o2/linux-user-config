@@ -6,5 +6,7 @@ if [[ ! -b "/dev/zram0" ]]; then
 fi
 
 # Erase data from zram
-cat /dev/zero > /dev/zram0
+umount /dev/zram0
+shred /dev/zram0
+mkfs.ext4 /dev/zram0 
 echo "zram0 erased"
